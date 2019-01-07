@@ -10,7 +10,7 @@ Now you see the PCB.
 
 see plug01.jpg
 
-# Warning do not operate on mains voltage
+## Warning do not operate on mains voltage
 
 in order to remove the board two solder joints have to be removed L-in and N-in
 next to the relais.
@@ -29,7 +29,23 @@ I used uPyCraft and the latest micropython ESP8266 bin to flash.
 Don't forget to bring IO 0 to ground befor power on the ESP to switch to flash mode!
 
 
-# Description of the PIN IO
+## Description of the PIN I/O
 
-its late will be continued soon ....
+I use the PIN numbering from micropython:
+
+PIN  2  Output   switch on / off the green LED
+PIN 15  Output   switch the Power Relais
+PIN 12  Output   wired to the Select Input of  HLW 8012
+PIN 05  Input    wired to the CF Output of  HLW 8012
+PIN 14  Input    wired to the CF1 Output of  HLW 8012
+PIN 13  Input    stat of the fronttaster
+
+## Description of the HLW 8012
+
+HLW 8012 is an special ic for measuring the voltage, current and power.
+It convert a analog voltage to a square wave signal on CF and CF1 
+CF is the power consumption 1Hz ~ 12 Watt, 10Hz ~ 120 Watt ....
+CF1 is either voltage (1) or current (0) dependent on the level on the PIN 12 (Select)
+
+
 
