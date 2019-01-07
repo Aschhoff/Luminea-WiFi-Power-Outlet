@@ -33,12 +33,12 @@ Don't forget to bring IO 0 to ground befor power on the ESP to switch to flash m
 
 I use the PIN numbering from micropython:
 
-PIN  2  Output   switch on / off the green LED
-PIN 15  Output   switch the Power Relais
-PIN 12  Output   wired to the Select Input of  HLW 8012
-PIN 05  Input    wired to the CF Output of  HLW 8012
-PIN 14  Input    wired to the CF1 Output of  HLW 8012
-PIN 13  Input    stat of the fronttaster
+- PIN  2  Output   switch on / off the green LED
+- PIN 15  Output   switch the Power Relais
+- PIN 12  Output   wired to the Select Input of  HLW 8012
+- PIN 05  Input    wired to the CF Output of  HLW 8012
+- PIN 14  Input    wired to the CF1 Output of  HLW 8012
+- PIN 13  Input    stat of the fronttaster
 
 ## Description of the HLW 8012
 
