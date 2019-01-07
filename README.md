@@ -58,3 +58,4 @@ In boot.py and wifi.py configure your WiFi settings and enable the WebREPL
 I tried out the WebREPL and a simple FTP Server, it works fine
 
 
+viel Spass Detlev Aschhoff info@vmais.de
