@@ -49,7 +49,7 @@ It convert a analog voltage to a square wave signal on CF and CF1
 - CF is the power consumption 1Hz ~ 12 Watt, 10Hz ~ 120 Watt ....
 - CF1 is either voltage (1) or current (0) dependent on the level on the PIN 12 (Select)
 
-A simple example is given by io.py
+A simple example is given by lumi_test.py
 
 ### to test your program you must disconnect all wires!
 
