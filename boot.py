@@ -1,6 +1,6 @@
 import wifi     # incl WLan Einstellungen
 wifi.connect()
-import ftp
+#import ftp
 import gc
 gc.collect()
 
